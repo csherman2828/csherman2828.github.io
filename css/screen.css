@@ -169,7 +169,12 @@ h4 {
 }
 
 /* State Styles */
-
+@media screen and (min-width: 420px) {
+  #site-nav ul {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 /* Theme Styles */
 
