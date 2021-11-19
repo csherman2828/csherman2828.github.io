@@ -113,7 +113,7 @@ h4 {
 
 #site-nav li {
   line-height: 0;
-  padding: 28px;
+  padding: 27px; /* scale 1x minus the border */
   border-style: solid;
   border-color: #e0cd5c;
   border-width: 1px;
@@ -173,6 +173,12 @@ h4 {
   #site-nav ul {
     display: flex;
     justify-content: center;
+  }
+
+  #site-nav li {
+    flex: 1 0 max-content;
+    text-align: center;
+    max-width: 130px;
   }
 }
 
