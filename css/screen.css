@@ -76,6 +76,20 @@ h4 {
   padding: 14px 0;
 }
 
+figure {
+  padding-bottom: 28px;
+}
+
+figcaption {
+  padding: 14px;
+  background-color: #222;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /* Layout Styles */
 
 /* Module Styles */
