@@ -127,6 +127,7 @@ img {
 }
 
 #site-nav a {
+  text-decoration: none;
   display: block;
   line-height: 0;
   padding: 27px; /* scale 1x minus the border */
@@ -139,10 +140,6 @@ img {
 #site-nav a:active,
 #site-nav a:focus {
   background-color: #333;
-}
-
-#site-nav li a {
-  text-decoration: none;
 }
 
 #site-footer {
