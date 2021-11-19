@@ -178,7 +178,7 @@ img {
 }
 
 #classes main article {
-  flex: 1 0 500px;
+  flex: 1 1 500px;
 }
 
 #resume-languages li,
