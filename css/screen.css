@@ -182,6 +182,27 @@ h4 {
   }
 }
 
+@media screen and (min-width: 910px) {
+  #site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #site-nav {
+    margin-top: -28px;
+  }
+
+  #site-nav ul {
+    gap: 14px;
+  }
+
+  #site-nav li {
+    border-top: 0;
+    padding-top: 28px;
+  }
+
+}
+
 /* Theme Styles */
 
 /** A quick baseline grid overlay using css+svg. Inspired by [Basehold.it](https://basehold.it/). @author leshido */
