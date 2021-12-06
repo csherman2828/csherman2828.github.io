@@ -197,6 +197,15 @@ img {
 
 /* State Styles */
 
+/* 350 / 16 = 21.875 */
+@media screen and (min-width: 21.875em) {
+  /* give resume skills 2 columns */
+  #resume-languages > ul,
+  #resume-technologies > ul {
+    column-count: 2;
+  }
+}
+
 /* 420 / 16 = 26.25 */
 @media screen and (min-width: 26.25em) {
   #site-nav ul {
@@ -208,6 +217,15 @@ img {
     flex: 1 0 max-content;
     text-align: center;
     max-width: 5.90909090909em; /* 130 / 22 = 5.90909090909*/
+  }
+}
+
+/* 500 / 16 = 31.25 */
+@media screen and (min-width: 31.25em) {
+  /* give resume skills 3 columns */
+  #resume-languages > ul,
+  #resume-technologies > ul {
+    column-count: 3;
   }
 }
 
