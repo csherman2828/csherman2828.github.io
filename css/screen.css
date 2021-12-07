@@ -105,13 +105,6 @@ img {
   line-height: 1.27272727273em; /* x1 */ /* 28 / 22 = 1.27272727273*/
 }
 
-.work-exp-description li,
-.project-description li,
-.extracurricular-description li {
-  padding-top: 0.63636363636em; /* x0.5 */ /* 14 / 22 = 0.63636363636 */
-  padding-bottom: 0.63636363636em; /* x0.5 */ /* 14 / 22 = 0.63636363636 */
-}
-
 .work-exp-details li,
 .project-details li,
 .extracurricular-details li {
